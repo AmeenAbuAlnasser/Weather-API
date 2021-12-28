@@ -1,0 +1,39 @@
+body{
+    background-image: url(123.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child{
+  margin-top: 200px;
+    background-color: rgb(222, 184, 135)    ;
+    width: 500px;
+    text-align: center;
+    border: 1px solid ;
+   box-shadow: black 0px 0px 10px;
+}
+.test{
+    display: flex;
+    justify-content:center;
+}
+.child img{
+    padding-left: 10px;
+    width: 60px;
+    transition: 1s;
+}
+.child img:hover
+{
+    transform: rotateX(180deg);
+}
+
+.hey h2{
+   width: 420px;
+    background-color: #0061f2;
+    padding: 10px 17px;
+    color: #fff;
+    border-radius: 8px;
+    border:1px solid #0061f2;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin: auto;
+}
